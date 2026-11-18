@@ -1,16 +1,24 @@
-## Hi there 👋
+# Nicholas Saros
 
-<!--
-**nicholassaros/nicholassaros** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Cloud Infrastructure · Distributed Systems · Databases**
 
-Here are some ideas to get you started:
+I'm interested in the systems that store, move, and process data. My experience spans cloud platforms, data warehousing, programming, and infrastructure as code.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Technical Experience
+
+| Area | Technologies |
+| --- | --- |
+| Cloud Platforms | Oracle Cloud Infrastructure (OCI), Google Cloud Platform (GCP) |
+| Data Warehousing | Oracle Autonomous Data Warehouse (ADW) |
+| Programming Languages | C++, Java, Python |
+| Infrastructure as Code | Terraform |
+
+## Areas of Interest
+
+- **Distributed systems:** How components communicate, coordinate, and operate reliably.
+- **Databases:** Data storage, query processing, and the design of data systems.
+- **Data streaming:** Moving and processing data across services and platforms.
+
+---
+
+[Explore my repositories](https://github.com/nicholassaros?tab=repositories)
