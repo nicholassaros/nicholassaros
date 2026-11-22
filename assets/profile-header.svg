@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="184" viewBox="0 0 960 184" role="img" aria-labelledby="title desc">
+  <title id="title">Nicholas Saros</title>
+  <desc id="desc">Distributed systems and data processing. On the right, a stream of records splits across three partitions, each feeding a worker.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#111f32"/>
+      <stop offset="1" stop-color="#14343c"/>
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#48717b" opacity=".5"/>
+    </pattern>
+    <g id="partition" fill="#173743" stroke="#5fd3c1" stroke-width="2">
+      <rect x="0" y="-11" width="90" height="22" rx="4"/>
+      <path d="M18 -10v20m18 -20v20m18 -20v20m18 -20v20"/>
+    </g>
+    <g id="worker" fill="#22464e" stroke="#a1ecdb" stroke-width="2">
+      <rect x="-13" y="-13" width="26" height="26" rx="6"/>
+      <path d="m-5 0 4 4 7-8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </defs>
+  <rect width="960" height="184" rx="14" fill="url(#background)"/>
+  <rect x="558" y="8" width="390" height="168" fill="url(#grid)"/>
+  <rect x="38" y="46" width="40" height="4" rx="2" fill="#68debb"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <text x="36" y="102" fill="#f3f7fc" font-size="48" font-weight="700" letter-spacing="-1">Nicholas Saros</text>
+    <text x="38" y="140" fill="#aed7dc" font-size="22">Distributed systems &amp; data processing</text>
+  </g>
+  <g fill="none" stroke="#69b7b6" stroke-width="2">
+    <path d="M590 92h112m-70 0c22 0 18-46 42-46h28m-70 46c22 0 18 46 42 46h28"/>
+    <path d="M792 46h70m-70 46h70m-70 46h70"/>
+  </g>
+  <g fill="#efbc76" stroke="#172c39" stroke-width="2">
+    <circle cx="578" cy="92" r="5"/><circle cx="593" cy="92" r="5"/><circle cx="608" cy="92" r="5"/>
+  </g>
+  <g xmlns:xlink="http://www.w3.org/1999/xlink">
+    <use xlink:href="#partition" x="702" y="46"/><use xlink:href="#partition" x="702" y="92"/><use xlink:href="#partition" x="702" y="138"/>
+    <use xlink:href="#worker" x="875" y="46"/><use xlink:href="#worker" x="875" y="92"/><use xlink:href="#worker" x="875" y="138"/>
+  </g>
+</svg>
